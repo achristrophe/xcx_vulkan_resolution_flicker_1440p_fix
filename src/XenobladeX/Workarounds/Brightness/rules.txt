@@ -22,5 +22,5 @@ $exposure = 0.32
 $gamma = 0.93
 $glare = 0.95
 $lift = 0.002
-$postExposure = 1.05
+$postExposure = 1.7
 $vibrance = 0.318
