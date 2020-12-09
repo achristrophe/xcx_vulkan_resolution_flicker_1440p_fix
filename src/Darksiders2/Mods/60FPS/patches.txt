@@ -1,4 +1,0 @@
-[DarksidersTwo60FPS]
-moduleMatches = 0xD3247206
-
-0x037b1088 = li r0,1
