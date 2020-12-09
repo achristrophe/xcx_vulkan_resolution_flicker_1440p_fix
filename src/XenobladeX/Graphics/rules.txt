@@ -400,9 +400,18 @@ $skellViewScale = 2.0
 
 # Texture Redefines
 
+# Internal Resolution
 [TextureRedefine]
 width = 1280
 height = 720
-#tileModesExcluded = 0x001
+tileModesExcluded = 0x001
 overwriteWidth = ($width/$gameWidth) * 1280
 overwriteHeight = ($height/$gameHeight) * 720
+
+# Gamepad Resolution
+[TextureRedefine]
+width = 854
+height = 480
+formatsExcluded = 0x431,0x035,0x034,0x033,0x031
+overwriteWidth = ($padWidth/$gamePadWidth) * 854
+overwriteHeight = ($padHeight/$gamePadHeight) * 480
