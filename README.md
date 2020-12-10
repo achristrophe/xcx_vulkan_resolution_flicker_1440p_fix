@@ -24,6 +24,10 @@ White flickering may still occur for some reasons:
 Single-Core, Multi-Core recompiler does not seem to make an impact. Neither does the 60fps mod or other mods.
 
 ------
+![Fix](img/render_low.png)
+![Flicker Bug](img/render_flicker_white.png)
+![Flicker Bug](img/render_flicker_black.png)
+------
 ### Information
 ------
 This repo is for working on updating packs for version 5. Once the packs are ready, they will be pushed back to [cemu_graphic_packs](https://github.com/slashiee/cemu_graphic_packs) and this repo will be archived.
