@@ -1,6 +1,27 @@
-[![Github Actions Build Status Badge](https://github.com/slashiee/gfx_pack/workflows/Build%20Process/badge.svg)](https://github.com/slashiee/gfx_pack/actions)
-[![Github Releases Badge](https://img.shields.io/github/downloads/slashiee/gfx_pack/total.svg)](https://github.com/slashiee/gfx_pack/releases/latest)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/slashiee/gfx_pack/issues)
+### Xenoblade X Flickering Issue
+------
+This is an experimental WIP tweaking of cemu graphics pack v5 regarding a flickering issue when using vulkan and a resolution of 1440p. Issue occurs at 4K, but my target is 1440p. Using an AMD RX 5700 xt. Issue is known on the [wiki](https://wiki.cemu.info/wiki/Xenoblade_Chronicles_X#Screen-Wide_Flicker) as a problem with the vulkan renderer.
+\
+I will preface that I am a novice who is just screwing around with an existing mod, not the creator. Latest graphics pack here: https://actualmandm.github.io/cemu_graphic_packs/
+\
+Flickering seems to occur when:
+- Using in-battle command menu (+)
+- Shopping for equipment at terminals.
+
+The issue appears to be solely caused by the Resolution graphics pack to push beyond 1080p. The issue does not occur at 1080p. 
+\
+Currently, the issue it appears to be caused by two things in the resolution mod only:
+- Texture Redefine In-game Menus
+- Texture Redefine Shadows
+
+_Removing these settings ([in the rules text](https://github.com/chrisbrasington/xcx_vulkan_resolution_flicker_1440p_fix/blob/master/src/XenobladeX/Graphics/rules.txt)) moves the game from unplayable to 99% reasonable._ Further experimentaion is needed. 
+Flickering previously was so sever as to cause the character model not to render. Now, shopping at terminals will render the character model at a lower resolution. Shadow quality is decreased (but not in an overtly noticable way to my eye). 
+\
+White flickering may still occur for some reasons:
+- Clicking out of cemu to another window, can directly result in white background - flickering. 
+- The world terminals can clip through the in-game-menu and flicker on top of the character model incorrectly.
+
+Single-Core, Multi-Core recompiler does not seem to make an impact. Neither does the 60fps mod or other mods.
 
 ------
 ### Information
