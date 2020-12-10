@@ -37,7 +37,7 @@ This is of course with running the base game at 1440p:
 
 Happy gaming.
 ------
-I'm probably not merging this back anywhere as it may be more a bug with cemu's vulkan usage, which is closed source. And it just disables some functionality of the 60fps (which again, does work correctly with openGL) - some functionality I am unlikely to persue fixing in its entirety. Feel free to take a whack at it yourself. 
+##### I'm probably not merging this back anywhere as it may be more a bug with cemu's vulkan usage, which is closed source. And it just disables some functionality of the 60fps (which again, does work correctly with openGL) - some functionality I am unlikely to persue fixing in its entirety. Feel free to take a whack at it yourself. 
 ------
 ### Fork Information
 ------
