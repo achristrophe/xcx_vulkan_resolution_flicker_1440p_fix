@@ -8,7 +8,7 @@ Flickering seems to occur when:
 - Using in-battle command menu (+)
 - Shopping for equipment at terminals.
 
-The issue appears to be solely caused by the Resolution graphics pack ([v4 version here](https://github.com/ActualMandM/cemu_graphic_packs/tree/master/Resolutions/XenobladeX_Resolution))to push beyond 1080p. The issue does not occur at 1080p. 
+The issue appears to be solely caused by the Resolution graphics pack ([v4 version here](https://github.com/ActualMandM/cemu_graphic_packs/tree/master/Resolutions/XenobladeX_Resolution)) to push beyond 1080p. The issue does not occur at 1080p. 
 
 Currently, the issue it appears to be caused by two things in the resolution mod only:
 - Texture Redefine In-game Menus
