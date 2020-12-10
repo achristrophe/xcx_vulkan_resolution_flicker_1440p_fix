@@ -24,7 +24,7 @@ White flickering may still occur for some reasons:
 Single-Core, Multi-Core recompiler does not seem to make an impact. Neither does the 60fps mod or other mods.
 
 ------
-Fix: Rendering base game at 1440p, but rendering in-game shopping menu lower (native: 720p):
+Fix: Rendering base game at 1440p, but rendering in-game shopping menu model at lower native 720p:
 ![Fix](img/render_low.png)
 ![Fix](img/render_low_thumb.png)
 
