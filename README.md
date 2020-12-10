@@ -8,7 +8,7 @@ Flickering seems to occur when:
 - Using in-battle command menu (+)
 - Shopping for equipment at terminals.
 
-The issue appears to be solely caused by the Resolution graphics pack ([v4 version here](https://github.com/ActualMandM/cemu_graphic_packs/tree/master/Resolutions/XenobladeX_Resolution)) to push beyond 1080p. The issue does not occur at 1080p. 
+The issue appears to be solely caused by the Resolution graphics pack ([v4 version here](https://github.com/ActualMandM/cemu_graphic_packs/tree/master/Resolutions/XenobladeX_Resolution)) to push beyond 1080p. Contradictory to the wiki, this does not seem to occur due to the 60fps mod or other mod packs. The issue does not occur at 1080p with the resolution mod. 
 
 Currently, the issue it appears to be caused by two things in the resolution mod only:
 - Texture Redefine In-game Menus
@@ -19,7 +19,7 @@ Flickering previously was so sever as to cause the character model not to render
 
 White flickering may still occur for some reasons:
 - Clicking out of cemu to another window, can directly result in white background - flickering. 
-- The world terminals can clip through the in-game-menu and flicker on top of the character model incorrectly.
+- The world terminals can clip through the in-game-menu and flicker on top of the character model incorrectly. (will not occur facing away from terminals, seems to be lighting related)
 
 Single-Core, Multi-Core recompiler does not seem to make an impact. Neither does the 60fps mod or other mods.
 
