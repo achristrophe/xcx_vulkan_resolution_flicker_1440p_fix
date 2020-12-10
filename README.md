@@ -26,6 +26,7 @@ Single-Core, Multi-Core recompiler does not seem to make an impact. Neither does
 ------
 Fix: Rendering base game at 1440p, but rendering in-game shopping menu lower 
 ![Fix](img/render_low.png)
+![Fix](img/render_low_thumb.png)
 
 Bug Prior to Fix:
 ![Flicker Bug](img/render_flicker_white.png)
