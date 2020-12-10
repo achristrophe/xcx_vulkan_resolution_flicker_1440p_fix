@@ -206,19 +206,19 @@ tileModesExcluded = 0x001
 overwriteWidth = ($width/$gameWidth) * 1280
 overwriteHeight = ($height/$gameHeight) * 720
 
-[TextureRedefine] # shadows
-width = 1024
-height = 1024
-formats = 0x005
-overwriteWidth = ($height/$gameHeight)* (1024*$scaleShader*$internalRes)
-overwriteHeight = ($height/$gameHeight) * (1024*$scaleShader*$internalRes)
+#[TextureRedefine] # shadows
+#width = 1024
+#height = 1024
+#formats = 0x005
+#overwriteWidth = ($height/$gameHeight)* (1024*$scaleShader*$internalRes)
+#overwriteHeight = ($height/$gameHeight) * (1024*$scaleShader*$internalRes)
 
-[TextureRedefine] #ingame menu
-width = 1024
-height = 720
-tileModesExcluded = 0x001
-overwriteWidth = ($width/$gameWidth) * 1024
-overwriteHeight = ($height/$gameHeight) * 720
+#[TextureRedefine] #ingame menu
+#width = 1024
+#height = 720
+#tileModesExcluded = 0x001
+#overwriteWidth = ($width/$gameWidth) * 1024
+#overwriteHeight = ($height/$gameHeight) * 720
 
 [TextureRedefine]
 width = 864
