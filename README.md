@@ -1,6 +1,6 @@
-### Xenoblade X (cemu) Flickering Issue
+### (OBSOLETE) - FIXED IN 1.22.5C and beyond.
+### Xenoblade X (cemu) Flickering Issue via graphics pack tweaks
 ------
-#### eh..
 Okay.. the game is a better, flicker-free experience at 1080p. Period. At 1440p, this seems to help reduce and sometimes eliminate flickering in shop menus, but the battle menu is a problematic area for the vulkan renderer. CEMU itself would have to address this themselves. 
 ------
 This is an experimental WIP tweaking of cemu graphics pack v5 regarding a flickering issue when using vulkan and a resolution of 1440p. Issue occurs at 4K, but my target is 1440p. Using an AMD RX 5700 xt and cemu v1.22.0. Issue is known on the [wiki](https://wiki.cemu.info/wiki/Xenoblade_Chronicles_X#Screen-Wide_Flicker) as a problem with the vulkan renderer.
